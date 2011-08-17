@@ -1,0 +1,64 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: none;
+	clear: both;
+	float: none;
+	position: relative;
+}
+.page_conainer {
+	width: 800px;
+	height: 500px;
+	margin: 0 auto;
+	padding: 0;
+	clear: both;
+	float: none;
+	position: relative;
+}
+.content_contianer {
+	margin: 0 auto;
+	padding: 0;
+	min-height: 500px;
+	height: 500px;
+	width: 800px;
+	background: url('../../images/bgbng/sasedu_login_page_background.jpg') no-repeat;
+	clear: both;
+	float: none;
+	position: relative;
+	top: 100px;
+}
+#login_form_div {
+	position: relative;
+	padding: 0 0 0 20px;
+	top: 190px;
+	left: 410px;
+	height: 186px;
+	width: 258px;
+}
+#login_form_div p {
+	margin: 10px 0 5px 0;
+	color: white;
+	font-family: Verdana;
+	font-size: 14px;
+}
+.client_login_username {
+	background: url('../../images/bgbng/sasedu_login_input.jpg') no-repeat;
+	border: none;
+	width: 198px;
+	height: 28px;
+}
+.client_login_password {
+	background: url('../../images/bgbng/sasedu_login_input.jpg') no-repeat;
+	border: none;
+	width: 198px;
+	height: 28px;
+}
+.client_login_submit_button {
+	border: 0;
+	cursor: pointer;
+	background: url('../../images/bgbng/sasedu_login_button.jpg') no-repeat;
+	width: 125px;
+	height: 36px;
+	float: right;
+	margin: 25px 30px 0 0;
+}

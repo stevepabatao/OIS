@@ -1,0 +1,98 @@
+/* All the main styles and stylesheet imports
+ *
+ * @file		screen.css
+ *
+ * @type		strict
+ * @browsers	Windows: IE6+, Firefox2+, Safari3+
+ *				Mac OS: Safari3+, Firefox2+
+ *
+ * @link		http: //www.shoxty.com/
+ * @copyright	2008 Will Robertson. All Rights Reserved.
+ *
+ */
+
+/*===================================
+	GLOBAL
+===================================*/
+/*import "reset.css";*/
+
+html {color:#fff; font-family: Georgia1, Georgia, serif; font-size: 12px;}
+body {background: #fff; text-align: center; height: 100%; /* for older browsers */}
+
+#main, #sec {margin: 0 auto; position: relative; width: 100%; text-align: left;}
+.inside {margin: 0 auto; position: relative; width: 1024px;}
+
+#header, #billboard, #content, #footer {position: relative;}
+
+a img {border: none;}
+h1, h2, h3 {font-family: Georgia1, Georgia, serif; font-weight: normal;}
+p {color:#666666; font-family: Georgia1, Georgia, serif; font-size: 12px; line-height: 17px; margin-bottom:18px;}
+
+.clear_left {clear: left;}
+.clear_right {clear: right;}
+.clear_both {clear: both;}
+.float_left {float: left;}
+.float_right {float: right;}
+
+/*===================================
+	HEADER
+===================================*/
+#header {height: 87px;}
+#header .inside {background: url(../../images/sites/focuslearningcenter.com/header_bkg.jpg) no-repeat center top; height: 87px;}
+
+.logo {position: absolute; top: 0; left: 20px; width: 190px; height: 87px;}
+.logo a {width: 190px; height: 87px; display: block; overflow: hidden; text-indent: -9999px;}
+
+ul.top_nav {position: absolute; top: 50px; right: 50px;}
+ul.top_nav li {padding: 0 9px; list-style: none; display: inline-block; float: left;}
+ul.top_nav li.last {padding-right: 0 !important; background: none !important;}
+ul.top_nav li a {color:#fff; font-family: Georgia1, Georgia, serif; font-size: 14px; text-decoration: none;}
+ul.top_nav li a:hover, ul.top_nav li a.current {text-decoration: underline;}
+
+/*===================================
+	BILLBOARD
+===================================*/
+#main #billboard {height: 269px;}
+#sec #billboard {height: 199px;}
+
+/*===================================
+	CONTENT
+===================================*/
+#content .inside {min-height:292px; height:auto !important; height:292px; background: url(../../images/sites/focuslearningcenter.com/content_bkg.jpg) no-repeat right top; padding: 0 25px 50px; width: 974px !important;}
+
+.column_left {width: 625px; float: left; padding: 20px 40px 0 0;}
+.column_right {width: 284px; float: left; padding: 20px 0 0 25px;}
+
+/*-HOME MODULES--------------------*/
+ul.home_modules {margin-bottom: 18px;}
+ul.home_modules li h3 {margin-bottom:2px; padding: 0 0 10px; color: #1780b9; font-size: 13px; background: url(../../images/sites/focuslearningcenter.com/h3.jpg) no-repeat left bottom; font-family: Georgia1, Georgia, serif;}
+ul.home_modules li {background: none !important; margin-left: 0 !important; padding-left: 0 !important; list-style: none; float: left; width: 192px; padding-right: 16px;}
+ul.home_modules li img {margin: 0 0 5px 0;}
+
+/*-MAIN----------------------------*/
+.main_module {width: 582px;}
+.column_left h1 {color: #1780b9; font-size: 25px; background: url(../../images/sites/focuslearningcenter.com/h1.jpg) no-repeat left top; padding:0 0 30px 30px;}
+.column_right h1 {color: #1780b9; font-size: 25px; background: url(../../images/sites/focuslearningcenter.com/h1_sidebar.jpg) no-repeat left top; padding:0 0 30px 42px;}
+.column_left h2 {color: #1780b9; font-size: 18px; padding-bottom: 13px;}
+.column_left ul {margin-bottom: 18px;}
+.column_left ul li {color: #1780b9; line-height:17px; font-size: 14px; padding-left:9px; background: url(../../images/sites/focuslearningcenter.com/li.jpg) no-repeat left 4px; margin-left: 15px;}
+blockquote {margin-bottom: 18px; padding-left:16px; background: url(../../images/sites/focuslearningcenter.com/quote.gif) no-repeat left top; color: #666666; font-size: 12px; line-height: 17px;}
+blockquote div {color: #1780b9;}
+.column_left a, .column_right a {color: #1780B9; text-decoration: none;}
+.column_left a:hover, .column_right a:hover {text-decoration: underline;}
+
+/*===================================
+	FOOTER
+===================================*/
+#footer {height: 218px;}
+#footer .inside {background: #000 url(../../images/sites/focuslearningcenter.com/footer_bkg.jpg) no-repeat left top; padding-top:30px; height: 218px;}
+#footer .inside .links_container {margin: 0 50px;}
+#footer .inside .links {width: 130px; padding:0 12px; float: left;}
+#footer .inside .links ul li {color: #7bb7d7; font-size: 12px; list-style: none; font-family: Lucida Sans Unicode, Lucida Grande, sans-serif; margin-bottom: 5px;}
+
+#footer .inside .links h1 {color: #fff; font-size: 15px; font-family: Tahoma, Geneva, sans-serif; margin-bottom: 7px;}
+#footer .inside .links a {color: #7bb7d7; font-size: 12px; font-family: Lucida Sans Unicode, Lucida Grande, sans-serif; text-decoration: none;}
+#footer .inside .links a:hover {text-decoration: underline;}
+#footer .inside .links p {text-align: left !important; padding-top: 0 !important; color: #7bb7d7; font-size: 12px; font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;}
+#footer .inside p {text-align: center; padding-top: 30px;}
+p.copyright {color: #89a3c5; font-size: 10px;}

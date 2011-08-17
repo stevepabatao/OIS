@@ -1,0 +1,32 @@
+/* CSS Document */
+
+#modalBackground, #modalWrapper { background: #212121; height: 100%; left: 0; position: fixed !important; position: absolute; /* ie6 fix */ top: 0; width: 100%; z-index: 9000; }
+#modalWrapper { background: none; }
+#modal { margin: 0 auto; position: relative; z-index: 9999  }
+
+.genericmodal { width: 821px; margin: 0 auto; background:url(../account/images/stepmodal/img_modalbg.png) no-repeat; padding:70px 0 0 0px; position: relative !important; color: #000; }
+*html .genericmodal {}
+.genericmodal .innerModal { overflow: auto;  height: 667px; padding: 20px; }
+.genericmodal a.closeButton { display: block; position: absolute; right:-5px; top:-2px; z-index: 9; background: url(../account/images/stepmodal/close.png) no-repeat; width: 30px; height: 30px }
+.genericmodal a.closeButton img { display: none }
+html, body { height: 100%;  }
+
+.genericmodal img.heading {position:absolute; top:20px; left:-8px;}
+.genericmodal img.bhost {position:absolute; top:70px; right:12px;}
+.genericmodal .toptext {width:480px; margin-left:22px;}
+.genericmodal .toptext p {font-size:14px; color:#010101; line-height:22px; margin-bottom:10px;}
+.genericmodal .toptext p span, p strong {font-size:16px;}
+
+.genericmodal .hgoods {width:492px; height:242px; background:url(../account/images/stepmodal/img_tabg.png) no-repeat; margin-left:22px; margin-top:20px;}
+.genericmodal .hgoods h1 {color:#010101; font-size:14px; font-weight:normal; line-height:55px; text-align:center; margin-bottom:15px;}
+.genericmodal .hgoods h1 span, h1 strong {font-size:16px;}
+.genericmodal .hgoods ul {margin-left:20px; }
+.genericmodal .hgoods ul li {list-style-type:none; background:url(../account/images/stepmodal/bullet.png) no-repeat left; line-height:20px; padding-left:25px; font-size:14px; margin-bottom:12px;}
+.genericmodal .hgoods ul li span {color:#072855; font-weight:bold; font-size:14px;}
+.genericmodal h2 {text-align:center; font-size:26px; margin-top:25px; color:#010101; font-weight:bold; font-family: Arial, Helvetica, sans-serif; background:url(../account/images/stepmodal/img_line.png) no-repeat; background-position:50px 24px; height:40px;}
+.genericmodal .ybar {width:762px; height:57px; background:url(../account/images/stepmodal/img_yesbar.png) no-repeat; margin:0 auto; margin-top:20px;}
+.genericmodal .ybar h3 {text-align:center; color:#010101; line-height:50px; margin-top:10px;}
+.genericmodal .ybar h3 a {text-decoration:none; font-size:20px; color:#010101; line-height:42px; font-weight:bold;}
+.genericmodal .ybar h3 a:hover {text-decoration:underline;}
+.genericmodal  h6 {cursor:pointer; cursor:hand; font-size:11px; text-align:center; color:#464646; text-decoration:underline; font-weight:normal;}
+.genericmodal h6:hover {text-decoration:none;}
